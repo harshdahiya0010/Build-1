@@ -1,15 +1,4 @@
-"""
-------------------------------------------------------------
-Project : Haro AI
-Author  : Harsh Dahiya
-Version : 1.0.0
 
-Description:
-A conversational AI chatbot built using Streamlit,
-LangChain, and OpenAI GPT.
-
-------------------------------------------------------------
-"""
 
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
