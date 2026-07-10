@@ -22,7 +22,7 @@ model = ChatOpenAI(
     model="gpt-4.1-mini",
     temperature=0.7
 )
-)
+
 
 # ----------------------------
 # Custom CSS
