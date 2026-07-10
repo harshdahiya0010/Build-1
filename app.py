@@ -1,6 +1,6 @@
 
 
-from dotenv import load_dotenv
+
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 import streamlit as st
@@ -16,10 +16,12 @@ st.set_page_config(
     layout="wide"
 )
 
-load_dotenv()
+
 
 model = ChatOpenAI(
+    model="gpt-4.1-mini",
     temperature=0.7
+)
 )
 
 # ----------------------------
